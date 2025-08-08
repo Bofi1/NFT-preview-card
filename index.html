@@ -10,12 +10,22 @@
     <article
       class="bg-[#15263F] rounded-2xl flex flex-col items-center p-5 shadow-2xl"
     >
-      <img
-        class="rounded-2xl h-[300px]"
-        src="images/image-equilibrium.jpg"
-        alt=""
-      />
-      <h1 class="text-white font-semibold text-xl w-full mt-7">
+      <div class="relative">
+        <img
+          class="rounded-2xl h-[300px]"
+          src="images/image-equilibrium.jpg"
+          alt=""
+        />
+        <div
+          class="rounded-2xl h-[300px] bg-[#12FBFA]/70 w-[300px] absolute top-0 opacity-0 hover:opacity-100 transition flex justify-center items-center cursor-pointer"
+        >
+          <img class="" src="images/icon-view.svg" alt="" />
+        </div>
+      </div>
+
+      <h1
+        class="text-white font-semibold text-xl w-full mt-7 hover:text-[#12FBFA] cursor-pointer transition"
+      >
         Equilibrium #3429
       </h1>
       <h2 class="text-[#697D9A] w-full mt-4">
@@ -42,7 +52,11 @@
           alt=""
         />
         <h2 class="text-[#697D9A] ml-4 text-sm">
-          Creation of <span class="text-white">Jules Wyvern</span>
+          Creation of
+          <span
+            class="text-white hover:text-[#12FBFA] cursor-pointer transition"
+            >Jules Wyvern</span
+          >
         </h2>
       </div>
     </article>
